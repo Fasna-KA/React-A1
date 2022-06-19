@@ -1,0 +1,64 @@
+body{
+    background: #799F0C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACBB78, #799F0C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACBB78, #799F0C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.heading{
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+    text-shadow: 5px 2px 5px rgb(118, 201, 222);
+}
+.button{
+    position: relative;
+    top: 6vh;
+    left: 25vw;
+    width: 20vw;
+    height: 8vh;
+    background-color: rgb(215, 240, 115);
+    border:solid 5px black;
+    border-radius: 20px;
+}
+.button1{
+    position: absolute;
+    top: 14vh;
+    right: 25vw;
+    width: 20vw;
+    height: 8vh;
+    background-color: rgb(215, 240, 115);
+    border:solid 5px black;
+    border-radius: 20px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: orange;
+}
+.button1:hover{
+    background-color: orange;
+
+}
+.box{
+    position: absolute;
+    top: 30vh;
+    left: 10vw;
+    width: 30vw;
+    height: 35vh;
+    border: solid 5px black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(167, 121, 35);
+}
+.box1{
+    position: absolute;
+    top: 30vh;
+    right: 10vw;
+    width: 30vw;
+    height: 35vh;
+    border: solid 5px black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(167, 121, 35);
+}
+
